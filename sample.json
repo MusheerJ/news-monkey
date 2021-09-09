@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 5,
+    "articles": [
+        {
+            "source": {
+                "id": "ansa",
+                "name": "ANSA.it"
+            },
+            "author": "ANSA.it",
+            "title": "Talebani vietano lo sport alle donne, 'espone i loro corpi' - Ultima Ora",
+            "description": "I talebani hanno deciso che le donne afghane non potranno più giocare a cricket né a nessun altro\r\nsport che \"esponga i loro corpi\" o le mostrino ai media. (ANSA)",
+            "url": "http://www.ansa.it/sito/notizie/topnews/2021/09/08/talebani-vietano-lo-sport-alle-donne-espone-i-loro-corpi_1af4d9d7-18e8-4206-bcd9-ae1bdf02733d.html",
+            "urlToImage": "https://www.ansa.it/webimages/img_700/2021/9/8/3f4d23120481a4429674ab03e265e53b.jpg",
+            "publishedAt": "2021-09-08T13:43:00Z",
+            "content": "(ANSA) - ROMA, 08 SET - I talebani hanno deciso che le donne\r\nafghane non potranno più giocare a cricket né a nessun altro\r\nsport che \"esponga i loro corpi\" o le mostrino ai media. Lo ha\r\ndetto in un… [+967 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": null,
+            "title": "Test cricket match between Australia and Afghanistan likely to be cancelled after Taliban says it will ban women from playing",
+            "description": "A test match cricket game between Australia and Afghanistan in Hobart later this year is likely to be cancelled, after the Taliban confirmed it would ban women from playing any sport.",
+            "url": "http://www.abc.net.au/news/2021-09-08/australia-afghanistan-cricket/100445400",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/d9103610cfabd12a8bc05c0b3ddd6680?impolicy=wcms_crop_resize&cropH=1680&cropW=2983&xPos=17&yPos=171&width=862&height=485",
+            "publishedAt": "2021-09-08T11:17:29Z",
+            "content": "A test match cricket game between Australia and Afghanistan in Hobart later this year is likely to be cancelled, after the Taliban confirmed they would ban women from playing any sport.\r\nKey points:\r… [+3717 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-sport",
+                "name": "BBC Sport"
+            },
+            "author": "BBC Sport",
+            "title": "Ashes to 'hopefully' have full houses",
+            "description": "The Ashes will \"hopefully\" be played to full houses and on schedule despite a rise in Covid cases, Cricket Australia say.",
+            "url": "http://www.bbc.co.uk/sport/cricket/58484996",
+            "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/B4F3/production/_120432364_gettyimages-1197102075.jpg",
+            "publishedAt": "2021-09-08T09:07:25.5946364Z",
+            "content": "England and Australia drew a thrilling series 2-2 in 2019, a result which saw Australia retain the urn\r\nThe upcoming Ashes series between England and Australia will \"hopefully\" be played in front of … [+2485 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}
