@@ -33,6 +33,7 @@ export class News extends Component {
         console.log('cdm');
         let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=1df9a8941d894128bc77512e97de1c01&pageSize=${this.props.pageSize}`;
         this.setState({ loading: true });
+        console.log(url);
 
         let data = await fetch(url);
         let parsedData = await data.json();
@@ -44,21 +45,15 @@ export class News extends Component {
     }
 
     handleNextClick = async () => {
-        if (this.state.page + 1 > Math.ceil(this.state.totalResults / this.props.pageSize)) {
-            console.log("no more pages")
-        }
-
-        else {
-            let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=1df9a8941d894128bc77512e97de1c01&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
-            this.setState({ loading: true });
-            let data = await fetch(url);
-            let parsedData = await data.json();
-            this.setState({
-                page: this.state.page + 1,
-                articles: parsedData.articles,
-                loading: false
-            })
-        }
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=1df9a8941d894128bc77512e97de1c01&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+        this.setState({ loading: true });
+        let data = await fetch(url);
+        let parsedData = await data.json();
+        this.setState({
+            page: this.state.page + 1,
+            articles: parsedData.articles,
+            loading: false
+        })
 
     }
 
@@ -79,7 +74,7 @@ export class News extends Component {
         console.log('render');
         return (
             <div className='container my-3'>
-                <h1 className='text-center' style={{ margin: '25px' }}>NewsMonkey - Top HeadDlines</h1>
+                <h1 className='text-center' style={{ margin: '25px' }}>NewsMonkey - Top Headlines</h1>
 
 
                 {this.state.loading && <Spinner />}
@@ -89,7 +84,7 @@ export class News extends Component {
                     {!this.state.loading && this.state.articles.map((element) => {
                         return <div className="col-md-4 my-3" key={element.url} >
                             <NewsItem title={element.title ? element.title : ''} description={element.description ? element.description : ""} imageUrl={element.urlToImage
-                            } newsUrl={element.url} />
+                            } newsUrl={element.url} date={element.publishedAt} author={element.author} source={element.source.name} />
                         </div>
                     })}
                 </div>
