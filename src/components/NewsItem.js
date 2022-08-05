@@ -10,7 +10,7 @@ export class NewsItem extends Component {
             <div>
 
                 <div className="card">
-                    <div className="card-header text-center" >
+                    <div className="card-header text-center" style={{ backgroundColor: '#212529', color:'white' }} >
                         Source : {source}
                     </div>
                     <img src={imageUrl ? imageUrl : defaultImg} className="card-img-top" alt="..." />
