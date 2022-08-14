@@ -1,8 +1,6 @@
 
 <div align="center" id="top"> 
-  <img src="https://cdn.jim-nielsen.com/ios/512/flow-tasks-2015-09-29.png" alt="Team Nequit App" width="150" height="150"/>
-
-&#xa0;
+  <img src="https://i1.sndcdn.com/artworks-000104833612-z2icw6-t500x500.jpg" alt="Team Nequit App" width="200" height="200"/>
 
   <!-- <a href="https://e_commerce_app_flutter.netlify.app">Demo</a> -->
 </div>
@@ -10,7 +8,6 @@
 <h1 align="center">News Monkey</h1>
 
 ## Status
-
 
 <h4 align="center">
 News Monkey Completed
