@@ -40,10 +40,23 @@ Build a Web site that provides daily news on different category like Business, E
 
 Here are some Illustration of App Screens
 
--------------------
 | ![](screen-shots/home.png) | 
 | :--------------------------------: | 
 |            Home Screen             | 
+
+
+| ![](screen-shots/business.png) | 
+| :--------------------------------: | 
+|            Business             | 
+
+| ![](screen-shots/Tab.png) | 
+| :--------------------------------: | 
+|            Tab View            | 
+
+| ![](screen-shots/Mobile.png) | 
+| :--------------------------------: | 
+|            Mobile View             | 
+
 
 
 
